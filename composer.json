@@ -1,5 +1,5 @@
 {
-    "name": "adldap2/adldap2-laravel",
+    "name": "klongchu/adldap2-laravel",
     "description": "LDAP Authentication & Management for Laravel.",
     "keywords": [
         "adldap",
@@ -19,12 +19,10 @@
         "phpunit/phpunit": "~7.0|~8.0|^9.5.10|^10.5",
         "orchestra/testbench": "~3.7|~4.0|^8.0|^9.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:storm-internet-services/Adldap2.git"
-        }
-    ],
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:storm-internet-services/Adldap2.git"
+    }],
     "archive": {
         "exclude": [
             "/tests"
